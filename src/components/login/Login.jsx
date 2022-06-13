@@ -12,9 +12,12 @@ const Login = () => {
       <div className='rightside'>
         <form action="#" method='POST'>
           <h1>Sign in to Celebrity Moving</h1>
-          <h3>Email</h3>
+          <h5>Email</h5>
           <input type="Email" placeholder='Email' name='email' />
-          <h3>Password</h3>
+          <h5>Password</h5>
+          <div className='forgot'>
+          <a href="#">Forgot Password?</a>
+          </div>
           <input type="password" placeholder='Password' name='password' />
           <button name='Signin' type='Signin'>Login</button>
         </form>

@@ -52,6 +52,21 @@ input {
     z-index: 100;
 }
 
+.rightside h1 {
+    text-align: center;
+}
+
+.rightside a {
+    text-align: right;
+    max-width: 50%;
+    float: right;
+}
+
+.rightside h5 {
+    width: 50%;
+    margin-bottom: 0px;
+}
+
 .leftside {
     position: absolute;
     top: 0;
